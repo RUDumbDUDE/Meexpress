@@ -1,0 +1,157 @@
+{% extends 'shopApp/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-4">
+    <!-- Encabezado -->
+    <div class="row mb-5">
+        <div class="col-12 text-center">
+            <h1 class="display-4 mb-3">Acerca de MexExpress</h1>
+            <p class="lead">Tu destino de compras en línea de confianza desde 2023</p>
+            <hr class="my-4">
+        </div>
+    </div>
+
+    <!-- Historia y Misión -->
+    <div class="row mb-5">
+        <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <h3 class="card-title text-primary">
+                        <i class="fas fa-history me-2"></i>Nuestra Historia
+                    </h3>
+                    <p class="card-text">
+                        MexExpress nació con la visión de revolucionar el comercio electrónico en México. 
+                        Desde nuestra fundación, nos hemos dedicado a crear una plataforma que combine 
+                        la facilidad de uso con la seguridad que nuestros clientes merecen.
+                    </p>
+                    <p class="card-text">
+                        Comenzamos como una pequeña tienda en línea y hemos crecido hasta convertirnos 
+                        en uno de los destinos preferidos para las compras en línea en México, 
+                        sirviendo a miles de clientes satisfechos.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <h3 class="card-title text-primary">
+                        <i class="fas fa-bullseye me-2"></i>Nuestra Misión
+                    </h3>
+                    <p class="card-text">
+                        Nuestra misión es proporcionar la mejor experiencia de compra en línea, 
+                        ofreciendo:
+                    </p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check text-success me-2"></i>Productos de alta calidad</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Precios competitivos</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Envíos rápidos y seguros</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Atención al cliente excepcional</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Garantía de satisfacción</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nuestros Valores -->
+    <div class="row mb-5">
+        <div class="col-12">
+            <h2 class="text-center mb-4">Nuestros Valores</h2>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <i class="fas fa-heart text-danger fa-3x mb-3"></i>
+                    <h4 class="card-title">Compromiso</h4>
+                    <p class="card-text">Nos comprometemos a brindar el mejor servicio y los mejores productos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <i class="fas fa-shield-alt text-primary fa-3x mb-3"></i>
+                    <h4 class="card-title">Seguridad</h4>
+                    <p class="card-text">Tu seguridad y la de tus datos es nuestra prioridad número uno.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <i class="fas fa-star text-warning fa-3x mb-3"></i>
+                    <h4 class="card-title">Calidad</h4>
+                    <p class="card-text">Solo ofrecemos productos que cumplen con nuestros altos estándares.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Información de Contacto -->
+    <div class="row mb-5">
+        <div class="col-12">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <h3 class="card-title text-center mb-4">
+                        <i class="fas fa-address-card me-2"></i>Contacto
+                    </h3>
+                    <div class="row">
+                        <div class="col-md-4 text-center mb-3">
+                            <i class="fas fa-envelope text-primary fa-2x mb-2"></i>
+                            <h5>Email</h5>
+                            <p>contacto@mexexpress.com</p>
+                        </div>
+                        <div class="col-md-4 text-center mb-3">
+                            <i class="fas fa-phone text-primary fa-2x mb-2"></i>
+                            <h5>Teléfono</h5>
+                            <p>(55) 1234-5678</p>
+                        </div>
+                        <div class="col-md-4 text-center mb-3">
+                            <i class="fas fa-map-marker-alt text-primary fa-2x mb-2"></i>
+                            <h5>Ubicación</h5>
+                            <p>Ciudad de México, México</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Horario de Atención -->
+    <div class="row">
+        <div class="col-12">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body text-center">
+                    <h3 class="card-title">
+                        <i class="fas fa-clock me-2"></i>Horario de Atención
+                    </h3>
+                    <p class="mb-0">Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+                    <p class="mb-0">Sábado: 10:00 AM - 2:00 PM</p>
+                    <p>Domingo: Cerrado</p>
+                    <div class="alert alert-info mt-3">
+                        <i class="fas fa-info-circle me-2"></i>
+                        Nuestra tienda en línea está disponible 24/7
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        transition: transform 0.2s;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+    .text-primary {
+        color: #0d6efd !important;
+    }
+    .shadow-sm {
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+    }
+</style>
+{% endblock %}
