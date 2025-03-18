@@ -1,21 +1,58 @@
-
-
-.navbar {
-    background-color: rgb(28,40,65);
+/* Estilos generales */
+body {
+    background-color: #f8f9fa;
 }
 
+/* Estilos de las tarjetas */
 .card {
-    margin: 0.5em;
-    border-radius: 4px;
-    background: #fff;
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-  cursor: pointer;
+    transition: transform 0.2s;
+    border: none;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
 }
 
-.card:hover{
-     transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Colores personalizados */
+.text-primary {
+    color: #0d6efd !important;
+}
+
+/* Navbar personalizado */
+.navbar {
+    background-color: #0d6efd;
+}
+
+/* Estilos para la página About */
+.about-header {
+    padding: 2rem 0;
+}
+
+.value-card {
+    margin-bottom: 1.5rem;
+}
+
+.contact-info i {
+    margin-bottom: 1rem;
+}
+
+/* Estilos para los íconos */
+.fa-3x {
+    margin-bottom: 1.5rem;
+}
+
+/* Estilos para las alertas */
+.alert-info {
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+    color: #084298;
+}
+
+/* Estilos para los enlaces */
+.nav-link:hover {
+    color: #fff !important;
+    opacity: 0.8;
 }
 
 .card .btn {
