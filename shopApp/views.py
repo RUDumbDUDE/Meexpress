@@ -7,7 +7,7 @@ def index(request):
     product_list = Product.objects.all()
     special_offers = Product.objects.filter(product_is_offer=True)
     my_context = {
-        'user' : 'Carlos',
+        'user' : 'Saul',
         'message' : 'Largo de aquí!',
         'special_offers' : special_offers,
         'product_list' : product_list,
@@ -51,3 +51,9 @@ def active_contacts(request):
         'title': 'Contactos Activos'
     }
     return render(request, 'shopApp/contacts.html', context)
+from django.shortcuts import render
+from shopApp.models import Contact
+
+def about(request):
+    active_contacts = Contact.objects.filter(active=True)
+    return render(request, 'shopApp/about.html', {'contacts': active_contacts})
